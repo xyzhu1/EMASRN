@@ -61,7 +61,7 @@
     },
 
     "solver": {
-       "pretrained_path": "./experiments/x4_lr=60/epochs/epoch_900_ckp.pth.pth"
+       "pretrained_path": "./models/x4.pth"
         //"pretrained_path": "./models/epoch_750_ckp.pth.pth"   best_ckp.pth  experiments/ZXYNET_in3f32_x4
     }
 }
