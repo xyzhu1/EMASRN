@@ -9,5 +9,5 @@ cd to `EMASRN` and run **one of following commands** for evaluation on *Set5*:
 
    ```shell
    # SRFBN
-   python test.py -opt options/test/test_x3_BI.json
-   python test.py -opt options/test/test_x4_BI.json
+   python test.py -opt options/test/test_example_x3.json
+   python test.py -opt options/test/test_example_x4.json
