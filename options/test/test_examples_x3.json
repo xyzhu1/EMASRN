@@ -1,0 +1,67 @@
+{
+    "mode": "sr",
+    "use_cl": true,
+    "gpu_ids": [0],
+
+    "scale": 3,
+    "degradation": "BI",
+    "is_train": false,
+    "use_chop": false,//true
+    "rgb_range": 255,
+    "self_ensemble": false,
+
+    "datasets": {
+        "test_set1": {
+            "mode": "LRHR",
+            "dataroot_HR": "./results/HR/Set14/x3",
+            "dataroot_LR": "./results/LR/LRBI/Set14/x3",
+            "data_type": "img"
+        },
+        "test_set2": {
+             "mode": "LRHR",
+             "dataroot_HR": "./results/HR/Set5/x3",
+             "dataroot_LR": "./results/LR/LRBI/Set5/x3",
+             "data_type": "img"
+         },
+        "test_set3":
+        {
+             "mode": "LRHR",
+             "dataroot_HR": "./results/HR/B100/x3",
+             "dataroot_LR": "./results/LR/LRBI/B100/x3",
+             "data_type": "img"
+         },
+        "test_set4":
+        {
+             "mode": "LRHR",
+             "dataroot_HR": "./results/HR/Urban100/x3",
+             "dataroot_LR": "./results/LR/LRBI/Urban100/x3",
+             "data_type": "img"
+         },
+        "test_set5":
+        {
+             "mode": "LRHR",
+             "dataroot_HR": "./results/HR/Manga109/x3",
+             "dataroot_LR": "./results/LR/LRBI/Manga109/x3",
+             "data_type": "img"
+         }
+//        "test_set3": {
+//             "mode": "LR",
+//             "dataroot_LR": "./results/LR/MyImage",
+//             "data_type": "img"
+//         }
+    },
+
+    "networks": {
+        "which_model": "CSUNET",
+        "num_features": 32,
+        "in_channels": 3,
+        "out_channels": 3,
+        "num_steps": 4,
+        "num_groups": 3
+    },
+
+    "solver": {
+       "pretrained_path": "./models/x3.pth"
+        //"pretrained_path": "./models/epoch_750_ckp.pth.pth"   best_ckp.pth  experiments/ZXYNET_in3f32_x4
+    }
+}
