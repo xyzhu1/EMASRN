@@ -9,7 +9,7 @@ from data import create_dataloader
 from data import create_dataset
 
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 def main():
     parser = argparse.ArgumentParser(description='Test Super Resolution Models')
@@ -85,12 +85,11 @@ def main():
                                                            (t1 - t0)))
 
         if need_HR:
-            print("---- Average PSNR(dB) /SSIM /Speed(s) for [%s] ----" % bm)
-            print("PSNR: %.2f      SSIM: %.4f      Speed: %.4f" % (sum(total_psnr)/len(total_psnr),
-                                                                  sum(total_ssim)/len(total_ssim),
-                                                                  sum(total_time)/len(total_time)))
+            print("---- Average PSNR(dB) /SSIM  for [%s] ----" % bm)
+            print("PSNR: %.2f      SSIM: %.4f " % (sum(total_psnr)/len(total_psnr),
+                                                                  sum(total_ssim)/len(total_ssim)))
             # print(solver.total_time[-5:])
-            print("平均时间：", sum(solver.total_time[-5:]) / 5)
+            #print("平均时间：", sum(solver.total_time[-5:]) / 5)
         else:
             print("---- Average Speed(s) for [%s] is %.4f sec ----" % (bm,
                                                                       sum(total_time)/len(total_time)))
