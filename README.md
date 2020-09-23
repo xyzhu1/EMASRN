@@ -4,6 +4,7 @@ This repository is Pytorch code for our proposed EMASRN.
 ## Test
 
 #### Quick start
+down the testdata
 
 cd to `EMASRN` and run **one of following commands** for evaluation on *Set5*:
 
