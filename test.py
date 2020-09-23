@@ -9,7 +9,7 @@ from data import create_dataloader
 from data import create_dataset
 
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 def main():
     parser = argparse.ArgumentParser(description='Test Super Resolution Models')
