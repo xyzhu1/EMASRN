@@ -4,11 +4,14 @@ This repository is Pytorch code for our proposed EMASRN.
 ## Test
 
 #### Quick start
-The testset can be downloaded from  [[GoogleDrive]](https://drive.google.com/file/d/1Dsb_-OH0CeSJVjvP9A4bh2_IBQh9R-ja/view) or [[BaiduYun]](https://pan.baidu.com/s/1fIGBulcWll8MzaS87D_kPQ)(code:6qta) and unzip it to ./result
+1. Download the testset
+The testset can be downloaded from  [[GoogleDrive]](https://drive.google.com/file/d/1ZrKNLDQT5wu1AjOkSV-B9dLcp2aIO_cE/view?usp=sharing) or [[BaiduYun]](https://pan.baidu.com/s/18NsZHMbhSu14GxAw9jMgIw)(code:hl0v) and unzip it to ./result
 
-cd to `EMASRN` and run **one of following commands** for evaluation on *Set5*:
+2. cd to `EMASRN` and run **one of following commands** for evaluation:
 
    ```shell
    # SRFBN
    python test.py -opt options/test/test_example_x3.json
    python test.py -opt options/test/test_example_x4.json
+   
+3. Edit `./options/test/test_example_x3.json` or `./options/test/test_example_x4.json` for your needs
