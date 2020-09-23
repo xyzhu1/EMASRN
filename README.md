@@ -10,7 +10,7 @@ The testset can be downloaded from  [[GoogleDrive]](https://drive.google.com/fil
 2. cd to `EMASRN` and run **one of following commands** for evaluation:
 
    ```shell
-   # SRFBN
+   # EMASRN
    python test.py -opt options/test/test_example_x3.json
    python test.py -opt options/test/test_example_x4.json
    
