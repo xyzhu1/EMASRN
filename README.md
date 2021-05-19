@@ -1,6 +1,4 @@
 # EMASRN
-This repository is the official Pytorch code for our proposed EMASRN.
-
 *Xiangyuan Zhu; Kehua Guo; Sheng Ren; Bin Hu; Min Hu; Hui Fang. "Lightweight Image Super-Resolution with Expectation-Maximization Attention Mechanism"* [IEEExplore](https://ieeexplore.ieee.org/document/9427111)
 
 ## Requirements
