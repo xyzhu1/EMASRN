@@ -1,5 +1,6 @@
 # EMASRN
 This repository is the official Pytorch code for our proposed EMASRN.
+*Xiangyuan Zhu; Kehua Guo; Sheng Ren; Bin Hu; Min Hu; Hui Fang. "Lightweight Image Super-Resolution with Expectation-Maximization Attention Mechanism"* [IEEExplore](https://ieeexplore.ieee.org/document/9427111)
 
 ## Requirements
 - Python 3.6 (Anaconda is recommended)
@@ -27,3 +28,17 @@ The testset can be downloaded from [[BaiduYun]](https://pan.baidu.com/s/18NsZHMb
 
 ## Train
 coming soon
+
+## Citation
+Please kindly cite our paper when using this project for your research.
+```
+@ARTICLE{9427111,
+  author={Zhu, Xiangyuan and Guo, Kehua and Ren, Sheng and Hu, Bin and Hu, Min and Fang, Hui},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Lightweight Image Super-Resolution with Expectation-Maximization Attention Mechanism}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCSVT.2021.3078436}}
+```
