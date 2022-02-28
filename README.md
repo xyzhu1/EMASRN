@@ -25,9 +25,6 @@ The testset can be downloaded from [[BaiduYun]](https://pan.baidu.com/s/18NsZHMb
    
 3. Edit `./options/test/test_example_x3.json` or `./options/test/test_example_x4.json` for your needs
 
-## Train
-coming soon
-
 ## Citation
 Please kindly cite our paper when using this project for your research.
 ```
