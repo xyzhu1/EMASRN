@@ -1,6 +1,3 @@
-# EMASRN
-*Xiangyuan Zhu; Kehua Guo; Sheng Ren; Bin Hu; Min Hu; Hui Fang. "Lightweight Image Super-Resolution with Expectation-Maximization Attention Mechanism"* in IEEE Transactions on Circuits and Systems for Video Technology [IEEExplore](https://ieeexplore.ieee.org/document/9427111)
-
 ## Requirements
 - Python 3.6 (Anaconda is recommended)
 - skimage
